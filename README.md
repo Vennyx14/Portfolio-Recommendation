@@ -9,7 +9,7 @@
 ## Cách chạy
 ```bash
 # Clone repo
-git clone https://github.com/<username>/portfolio-recommendation.git
+git clone https://github.com/Vennyx14/Portfolio-Recommendation.git
 cd portfolio-recommendation
 
 # Cài thư viện
