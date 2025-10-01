@@ -7,6 +7,7 @@
 - **Rule-based heuristic**: đưa ra gợi ý đầu tư dựa trên nhu cầu người dùng.
 
 ## Cấu trúc
+```bash
 Portfolio-Recommendation/
 │── data/
 │   ├── stocks.csv          # Folder chứa file CSV 
@@ -16,7 +17,8 @@ Portfolio-Recommendation/
 │   ├── rules.py            # Luật heuristic
 │   └── app.py              # File chính, chạy toàn bộ
 │── README.md
-│── requirements.txt        # Thư viện cần cài
+└── requirements.txt        # Thư viện cần cài
+```
 
 ## Cách chạy
 ```bash
