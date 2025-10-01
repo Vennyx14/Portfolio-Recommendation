@@ -6,6 +6,18 @@
 - **Clustering (K-means)**: phân nhóm cổ phiếu theo rủi ro và lợi nhuận.
 - **Rule-based heuristic**: đưa ra gợi ý đầu tư dựa trên nhu cầu người dùng.
 
+## Cấu trúc
+Portfolio-Recommendation/
+│── data/
+│   ├── stocks.csv          # Folder chứa file CSV 
+|   └── data_loader.py      # Load & xử lý dữ liệu
+│── src/
+│   ├── clustering.py       # Sử dụng K-means Clustering
+│   ├── rules.py            # Luật heuristic
+│   └── app.py              # File chính, chạy toàn bộ
+│── README.md
+│── requirements.txt        # Thư viện cần cài
+
 ## Cách chạy
 ```bash
 # Clone repo
